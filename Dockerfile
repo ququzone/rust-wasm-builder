@@ -13,7 +13,6 @@ RUN set -eux; \
         libc6-dev \
         wget \
         libomp-dev \
-        gcc-multilib \
         ; \
     dpkgArch="$(dpkg --print-architecture)"; \
     case "${dpkgArch##*-}" in \
